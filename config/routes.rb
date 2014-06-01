@@ -1,4 +1,6 @@
 Railsgirls::Application.routes.draw do
+  resources :users
+
   resources :comments
 
   get "home/index"
